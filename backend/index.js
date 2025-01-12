@@ -25,9 +25,9 @@ mongoose
 
 app.get("/", (req, res) => {
   try {
-    res.status(200).send({ status: 200, message: enums.SUCCESS_200 });
+    res.status(200).send({ status: 200, message: enums.ON_SUCCESS_200 });
   } catch (error) {
-    res.status(404).send({ status: 404, message: enums.NOT_FOUND_404 });
+    res.status(404).send({ status: 404, message: enums.ON_NOT_FOUND_404 });
   }
 });
 
