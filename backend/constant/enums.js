@@ -1,0 +1,32 @@
+const enums = {
+    SUCCESS_200: 'success - 200',
+    NOT_FOUND_404: 'not found - 404',
+    SERVER_ERROR_500:'server error - 500',
+    UNAUTHORIZED_401: 'unauthorized - 401',
+    FORBIDDEN_403: 'forbidden - 403',
+    NOT_ACCEPTABLE_406: 'not acceptable - 406',
+    BAD_REQUEST_400: 'bad request - 400',
+    CONFLICT_409: 'conflict - 409',
+    GONE_410: 'gone - 410',
+    UNSUPPORTED_MEDIA_TYPE_415: 'unsupported media type - 415',
+    TOO_MANY_REQUESTS_429: 'too many requests - 429',
+    REQUEST_TIMEOUT_408: 'request timeout - 408',
+    LENGTH_REQUIRED_411: 'length required - 411',
+    PRECONDITION_FAILED_412: 'precondition failed - 412',
+    PAYLOAD_TOO_LARGE_413: 'payload too large - 413',
+    URI_TOO_LONG_414: 'uri too long - 414',
+    UNSUPPORTED_RANGE_416: 'unsupported range - 416',
+    EXPECTATION_FAILED_417: 'expectation failed - 417',
+    IM_USED_501: 'im used - 501',
+    ABORTED_503: 'aborted - 503',
+    SERVICE_UNAVAILABLE_503: 'Service Unavailable - 503',
+    GATEWAY_TIMEOUT_504: 'Gateway Timeout - 504',
+    HTTP_VERSION_NOT_SUPPORTED_505: 'HTTP Version Not Supported - 505',
+    VARIANT_ALSO_NEGOTIATES_506: 'Variant Also Negotiates - 506',
+    INSUFFICIENT_STORAGE_507: 'Insufficient Storage - 507',
+    LOOP_DETECTED_508: 'Loop Detected - 508',
+    NOT_EXTENDED_510: 'Not Extended - 510',
+    NETWORK_AUTHENTICATION_REQUIRED_511: 'Network Authentication Required - 511'
+}
+
+export default enums;
