@@ -29,4 +29,4 @@ const enums = {
     NETWORK_AUTHENTICATION_REQUIRED_511: 'Network Authentication Required - 511'
 }
 
-export default enums;
+export default enums

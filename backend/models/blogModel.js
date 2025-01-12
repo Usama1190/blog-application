@@ -5,8 +5,8 @@ const blogSchema = mongoose.Schema({
     description: { type: String },
     author: { type: String },
     imgurl: { type: String }
-}, { timestamp: true});
+}, { timestamps: true});
 
-const Blog = mongoose.Model('blog', blogSchema);
+const Blogs = mongoose.model('Blogs', blogSchema);
 
-export default Blog;
+export default Blogs;
